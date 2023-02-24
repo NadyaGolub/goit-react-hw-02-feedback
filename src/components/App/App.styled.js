@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 background: rgb(245, 244, 250);
-    width: 250px;
+    width: 350px;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -13,5 +13,6 @@ background: rgb(245, 244, 250);
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 14%) 0px 1px 1px, rgb(0 0 0 / 20%) 0px 2px 1px;
     border-radius: 5px;
     padding: 10px;
+    gap: 10px;
 `;
 
